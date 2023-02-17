@@ -1,0 +1,115 @@
+body{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container h2{
+    color:#555 ;
+    margin-top: 30px;
+}
+
+.container .header ul{
+    list-style-type: none;
+    float: right;
+    margin-top: -50px;
+}
+
+.container .header ul li{
+    display: inline-block;
+}
+
+.container .header ul li a{
+    color: #555;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold ;
+    text-decoration: none;
+    padding : 10px 20px;
+    margin-right: 20px;
+    display: flex;
+    background: #e3edf7;
+
+}
+
+.container .banner {
+    height: 500px;
+    margin-top: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #555;
+    background-image: url(bg.png);
+    
+}
+.tech_pertanian{
+    margin-left: 45%;
+    margin-top: -20%;
+}
+.img-statistic{
+    margin-left: 60%;
+}
+
+.statistic_pertanian{
+    text-align: right;
+    margin-right: 50%;
+    margin-top: -27%;
+}
+.container .banner .home-text{
+    align-content: center; 
+}
+.info_hasil_pertanian{
+    margin-left: 45%;
+    margin-top: -18%;
+}
+.fill h3{
+    text-align: center;
+    align-content: center;
+    color: #49AC8D;
+}
+
+.img-masalah{
+    margin-left: 60%;
+}
+
+.masalah_pertanian{
+    text-align: right;
+    margin-right: 50%;
+    margin-top: -27%;
+}
+
+.container .footer {
+    height: 50px;
+    border-radius: 30px;
+    color: #555;;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 300px;
+}
+
+.container .footer .social-media a{
+    color: #555;
+    margin-right: 5px;
+    margin-left: 20px;
+    padding: 10px 20px;
+    display: inline-block;
+    border-radius: 20px;
+    box-shadow: 6px 6px 10px -1px rgba(0,0,0,0.15),
+    -6px -6px 10px -1px rgba(255,255,255,0.7);
+    border: 1px solid rgba(0,0,0,0);
+}
+
+.container .footer .social-media a:hover{
+    box-shadow: inset 4px 4px 6px -1px rgba(0,0,0,0.2),
+                inset -4px -4px 6px -1px rgba(255,255,255,0.7),
+                -0.5px -0.5px 0px -1px rgba(255,255,255,1),
+                0.5px 0.5px 0px rgba(0,0,0,0.15),
+                0px 12px 10px -10px rgba(0,0,0,0.05);
+    border: 1px solid rgba(0,0,0,0.01);
+}
+.container .footer .social-media a i:hover{
+    color: #db0171;
+}
+
+.container .footer .sapa p{
+    float: right;
+    font: bold;
+    margin-right: 20px;
+}
